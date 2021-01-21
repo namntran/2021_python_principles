@@ -7,7 +7,7 @@
 # for [Temporary variable] in [sequence]:
 #      [do something]
 # range() function used to generate a sequence between the given values.
-for i in range(1, 101): #loop
+for i in range(1, 101): #for loop
     
     if i%3 == 0 and i%5 == 0:
         print('FizzBuzz')
