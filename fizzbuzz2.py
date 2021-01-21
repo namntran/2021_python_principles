@@ -9,7 +9,7 @@
 # initialize variable, then test variable, then alter the variable
 
 i = 0 #initialise variable
-while(i<=99):#initialise variable for while loop
+while(i<=99):#test the variable for while loop
     i=i+1 #alter variable
     if i%3 == 0 and i%5 == 0:
         print('FizzBuzz')
