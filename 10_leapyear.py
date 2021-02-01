@@ -4,5 +4,3 @@
 year = int(input( "What year? "))
 isLeap = year % 4 == 0 and year % 100 != 0 or year % 400 == 0
 print ("Is it a leap year?", isLeap)
-
-
