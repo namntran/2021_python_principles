@@ -20,6 +20,8 @@ while True: # sentinel pattern
     if str == quit:  # exit the loop
         break
 
-    # print(*find_unique(list1, list2))
-    print(find_unique(list1, list2))
+    # print(find_unique(list1, list2)) # temporary print unique elements in list 1
     
+    return_list = find_unique(list1, list2) # using list comprehension to perform conversion
+    return_list = [int(i) for i in return_list]
+    print("Unique elements in the first list: ", str(return_list)) # print modified list
